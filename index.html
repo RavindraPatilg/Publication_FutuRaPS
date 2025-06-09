@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a84ac356ffb9284966ad38b711461e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a84ac356ffb9284966ad38b711461e6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a84ac356ffb9284966ad38b711461e6 = L.map(
+                "map_9a84ac356ffb9284966ad38b711461e6",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf94f4009c2ce5c49de4694e3f63bdac = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cf94f4009c2ce5c49de4694e3f63bdac.addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var marker_903e8c63467eb3d2bf8060d83c862c01 = L.marker(
+                [22.0, 79.0],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_956910ad8bfae1102a48065d5f055bc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b354c30e4809d74bb88372ab723912ff = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f307098c3ed9f99489893df61e545059 = $(`<div id="html_f307098c3ed9f99489893df61e545059" style="width: 100.0%; height: 100.0%;"><b>India</b><br>Publications: 32<br>Year: 2025</div>`)[0];
+                popup_b354c30e4809d74bb88372ab723912ff.setContent(html_f307098c3ed9f99489893df61e545059);
+            
+        
+
+        marker_903e8c63467eb3d2bf8060d83c862c01.bindPopup(popup_b354c30e4809d74bb88372ab723912ff)
+        ;
+
+        
+    
+    
+                marker_903e8c63467eb3d2bf8060d83c862c01.setIcon(icon_956910ad8bfae1102a48065d5f055bc7);
+            
+    
+            var marker_5dd68729d9054051ee9ad68b8151cd1a = L.marker(
+                [39.8, -98.6],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_8eedda63905293923cafc2c7b68f6d20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f97430d4d4590573ebf7dd86bd95a32 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9951fd372927a8716a016f1aa0be7f37 = $(`<div id="html_9951fd372927a8716a016f1aa0be7f37" style="width: 100.0%; height: 100.0%;"><b>USA</b><br>Publications: 26<br>Year: 2024</div>`)[0];
+                popup_3f97430d4d4590573ebf7dd86bd95a32.setContent(html_9951fd372927a8716a016f1aa0be7f37);
+            
+        
+
+        marker_5dd68729d9054051ee9ad68b8151cd1a.bindPopup(popup_3f97430d4d4590573ebf7dd86bd95a32)
+        ;
+
+        
+    
+    
+                marker_5dd68729d9054051ee9ad68b8151cd1a.setIcon(icon_8eedda63905293923cafc2c7b68f6d20);
+            
+    
+            var marker_1a4e20dc8a96988a5a1982e8e1ba72be = L.marker(
+                [55.0, -3.0],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_a568b7bb09000394caad1a0dede0784e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4787b0f5dbc5af0130c13feda5b1b145 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_97a2732213d604a4630595a0cb3d6312 = $(`<div id="html_97a2732213d604a4630595a0cb3d6312" style="width: 100.0%; height: 100.0%;"><b>United Kingdom</b><br>Publications: 23<br>Year: 2023</div>`)[0];
+                popup_4787b0f5dbc5af0130c13feda5b1b145.setContent(html_97a2732213d604a4630595a0cb3d6312);
+            
+        
+
+        marker_1a4e20dc8a96988a5a1982e8e1ba72be.bindPopup(popup_4787b0f5dbc5af0130c13feda5b1b145)
+        ;
+
+        
+    
+    
+                marker_1a4e20dc8a96988a5a1982e8e1ba72be.setIcon(icon_a568b7bb09000394caad1a0dede0784e);
+            
+    
+            var marker_0e98e4ad0c9d7c924fd15ec2763339ae = L.marker(
+                [35.9, 104.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_489d29fb9af8b3fef0115f4417e51b04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b9db8c640be86751c912c371789e9ad = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ccfe807de92a04c3c6cb3875f30b6699 = $(`<div id="html_ccfe807de92a04c3c6cb3875f30b6699" style="width: 100.0%; height: 100.0%;"><b>China</b><br>Publications: 22<br>Year: 2024</div>`)[0];
+                popup_5b9db8c640be86751c912c371789e9ad.setContent(html_ccfe807de92a04c3c6cb3875f30b6699);
+            
+        
+
+        marker_0e98e4ad0c9d7c924fd15ec2763339ae.bindPopup(popup_5b9db8c640be86751c912c371789e9ad)
+        ;
+
+        
+    
+    
+                marker_0e98e4ad0c9d7c924fd15ec2763339ae.setIcon(icon_489d29fb9af8b3fef0115f4417e51b04);
+            
+    
+            var marker_f8ff36373e7b1ff0225f2183d32b3533 = L.marker(
+                [-25.0, 133.0],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_e0bf9ed1bcff07cec6232420bfa9e1a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0ee6f68ff782a5072a08cd55121ab9e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_efb44a3a76004aec777fe08a05430889 = $(`<div id="html_efb44a3a76004aec777fe08a05430889" style="width: 100.0%; height: 100.0%;"><b>Australia</b><br>Publications: 13<br>Year: 2022</div>`)[0];
+                popup_b0ee6f68ff782a5072a08cd55121ab9e.setContent(html_efb44a3a76004aec777fe08a05430889);
+            
+        
+
+        marker_f8ff36373e7b1ff0225f2183d32b3533.bindPopup(popup_b0ee6f68ff782a5072a08cd55121ab9e)
+        ;
+
+        
+    
+    
+                marker_f8ff36373e7b1ff0225f2183d32b3533.setIcon(icon_e0bf9ed1bcff07cec6232420bfa9e1a0);
+            
+    
+            var marker_c310975bb7c520b5dd82f5c9e0f29e64 = L.marker(
+                [41.9, 12.6],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_2d30710217fdc3e142ef887d5051d5c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_595ba263629f686202d6f36a912279bf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b691a0ce97094397d4931b743431dcfe = $(`<div id="html_b691a0ce97094397d4931b743431dcfe" style="width: 100.0%; height: 100.0%;"><b>Italy</b><br>Publications: 12<br>Year: 2023</div>`)[0];
+                popup_595ba263629f686202d6f36a912279bf.setContent(html_b691a0ce97094397d4931b743431dcfe);
+            
+        
+
+        marker_c310975bb7c520b5dd82f5c9e0f29e64.bindPopup(popup_595ba263629f686202d6f36a912279bf)
+        ;
+
+        
+    
+    
+                marker_c310975bb7c520b5dd82f5c9e0f29e64.setIcon(icon_2d30710217fdc3e142ef887d5051d5c3);
+            
+    
+            var marker_919b1ed41244a132afde4a5dd2af857b = L.marker(
+                [56.1, -106.3],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_7c91c22c9e8e381f1f8a73dffef80393 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62bbf2c1562d02028737de7f5b7720a9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f00c731da41f87dd650b46b94e27d3b0 = $(`<div id="html_f00c731da41f87dd650b46b94e27d3b0" style="width: 100.0%; height: 100.0%;"><b>Canada</b><br>Publications: 13<br>Year: 2023</div>`)[0];
+                popup_62bbf2c1562d02028737de7f5b7720a9.setContent(html_f00c731da41f87dd650b46b94e27d3b0);
+            
+        
+
+        marker_919b1ed41244a132afde4a5dd2af857b.bindPopup(popup_62bbf2c1562d02028737de7f5b7720a9)
+        ;
+
+        
+    
+    
+                marker_919b1ed41244a132afde4a5dd2af857b.setIcon(icon_7c91c22c9e8e381f1f8a73dffef80393);
+            
+    
+            var marker_f0c560bdfe7cddc5aaf533abc0b58c6a = L.marker(
+                [51.2, 10.4],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_04abf149d0b3339dae24ebfb2ab5575a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22b7fbe4aa4583c0fa2e6e0d1b92b8e2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e82ab2e80e6549efaf5663d16c7a9704 = $(`<div id="html_e82ab2e80e6549efaf5663d16c7a9704" style="width: 100.0%; height: 100.0%;"><b>Germany</b><br>Publications: 8<br>Year: 2023</div>`)[0];
+                popup_22b7fbe4aa4583c0fa2e6e0d1b92b8e2.setContent(html_e82ab2e80e6549efaf5663d16c7a9704);
+            
+        
+
+        marker_f0c560bdfe7cddc5aaf533abc0b58c6a.bindPopup(popup_22b7fbe4aa4583c0fa2e6e0d1b92b8e2)
+        ;
+
+        
+    
+    
+                marker_f0c560bdfe7cddc5aaf533abc0b58c6a.setIcon(icon_04abf149d0b3339dae24ebfb2ab5575a);
+            
+    
+            var marker_3de5dcbbb926db2163e305c17e34ffb4 = L.marker(
+                [46.6, 2.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_2dcb3746509f97c9569d8def2f8ff60e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b174f310256281fb822ec2ab8e8e1d1a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_69457d17e4f6e1681194d76b3986bbdd = $(`<div id="html_69457d17e4f6e1681194d76b3986bbdd" style="width: 100.0%; height: 100.0%;"><b>France</b><br>Publications: 8<br>Year: 2024</div>`)[0];
+                popup_b174f310256281fb822ec2ab8e8e1d1a.setContent(html_69457d17e4f6e1681194d76b3986bbdd);
+            
+        
+
+        marker_3de5dcbbb926db2163e305c17e34ffb4.bindPopup(popup_b174f310256281fb822ec2ab8e8e1d1a)
+        ;
+
+        
+    
+    
+                marker_3de5dcbbb926db2163e305c17e34ffb4.setIcon(icon_2dcb3746509f97c9569d8def2f8ff60e);
+            
+    
+            var marker_50b87ce17cf7434639421fa012aa8946 = L.marker(
+                [40.5, -3.7],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_d148bd499848c397ca3f80dcd6ce0b38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18dc237f3606ec0f09451a4685cb8b72 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_04da2e028e0475d280def3df62f862bf = $(`<div id="html_04da2e028e0475d280def3df62f862bf" style="width: 100.0%; height: 100.0%;"><b>Spain</b><br>Publications: 8<br>Year: 2022</div>`)[0];
+                popup_18dc237f3606ec0f09451a4685cb8b72.setContent(html_04da2e028e0475d280def3df62f862bf);
+            
+        
+
+        marker_50b87ce17cf7434639421fa012aa8946.bindPopup(popup_18dc237f3606ec0f09451a4685cb8b72)
+        ;
+
+        
+    
+    
+                marker_50b87ce17cf7434639421fa012aa8946.setIcon(icon_d148bd499848c397ca3f80dcd6ce0b38);
+            
+    
+            var marker_0fafb252f2e0294f78d27421f6b1ce75 = L.marker(
+                [36.5, 127.8],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_6b903dae231f1d6022547ac176938742 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72a9c1a7c444c32c1e1e314bee028879 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f55012569cccb57e1023ff0c2f6fe372 = $(`<div id="html_f55012569cccb57e1023ff0c2f6fe372" style="width: 100.0%; height: 100.0%;"><b>South Korea</b><br>Publications: 8<br>Year: 2023</div>`)[0];
+                popup_72a9c1a7c444c32c1e1e314bee028879.setContent(html_f55012569cccb57e1023ff0c2f6fe372);
+            
+        
+
+        marker_0fafb252f2e0294f78d27421f6b1ce75.bindPopup(popup_72a9c1a7c444c32c1e1e314bee028879)
+        ;
+
+        
+    
+    
+                marker_0fafb252f2e0294f78d27421f6b1ce75.setIcon(icon_6b903dae231f1d6022547ac176938742);
+            
+    
+            var marker_78c47e53f45286040e5a6fc8bbed12ad = L.marker(
+                [39.1, 21.8],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_ea1056bb2fabc5289e63144583c38853 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8efb90ac58ac5a9ff18ffa616aa0690c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f5e3b9804222ee6aabb7f81743d25f6a = $(`<div id="html_f5e3b9804222ee6aabb7f81743d25f6a" style="width: 100.0%; height: 100.0%;"><b>Greece</b><br>Publications: 5<br>Year: 2021</div>`)[0];
+                popup_8efb90ac58ac5a9ff18ffa616aa0690c.setContent(html_f5e3b9804222ee6aabb7f81743d25f6a);
+            
+        
+
+        marker_78c47e53f45286040e5a6fc8bbed12ad.bindPopup(popup_8efb90ac58ac5a9ff18ffa616aa0690c)
+        ;
+
+        
+    
+    
+                marker_78c47e53f45286040e5a6fc8bbed12ad.setIcon(icon_ea1056bb2fabc5289e63144583c38853);
+            
+    
+            var marker_c69e6d6dd638a2ba70a22e90ffe3f4ec = L.marker(
+                [36.2, 138.3],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_5fd40ef4817e63927fb6f29bc5db6a4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93e174ae586db55070569f27dc143e50 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a54a0b70031f6420618ebe6f919ff007 = $(`<div id="html_a54a0b70031f6420618ebe6f919ff007" style="width: 100.0%; height: 100.0%;"><b>Japan</b><br>Publications: 4<br>Year: 2025</div>`)[0];
+                popup_93e174ae586db55070569f27dc143e50.setContent(html_a54a0b70031f6420618ebe6f919ff007);
+            
+        
+
+        marker_c69e6d6dd638a2ba70a22e90ffe3f4ec.bindPopup(popup_93e174ae586db55070569f27dc143e50)
+        ;
+
+        
+    
+    
+                marker_c69e6d6dd638a2ba70a22e90ffe3f4ec.setIcon(icon_5fd40ef4817e63927fb6f29bc5db6a4e);
+            
+    
+            var marker_5c13636a81a34aa001d1df16af09fa16 = L.marker(
+                [60.5, 8.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_f44f7ce7640663ba5ed2726e154d3030 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5dadce5b19483eb4dce55c1aa9d712a0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c5f52ced646e504d3890be3a667eb023 = $(`<div id="html_c5f52ced646e504d3890be3a667eb023" style="width: 100.0%; height: 100.0%;"><b>Norway</b><br>Publications: 6<br>Year: 2024</div>`)[0];
+                popup_5dadce5b19483eb4dce55c1aa9d712a0.setContent(html_c5f52ced646e504d3890be3a667eb023);
+            
+        
+
+        marker_5c13636a81a34aa001d1df16af09fa16.bindPopup(popup_5dadce5b19483eb4dce55c1aa9d712a0)
+        ;
+
+        
+    
+    
+                marker_5c13636a81a34aa001d1df16af09fa16.setIcon(icon_f44f7ce7640663ba5ed2726e154d3030);
+            
+    
+            var marker_df72ccea7b3efbd1009dc49afdf4ffac = L.marker(
+                [-35.7, -71.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_b09f8eabfab643f94ea0ec547caeecdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85003ceab18a6e1538317a746ec04d20 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_090c3603efd21dc8c57f777d9e69b001 = $(`<div id="html_090c3603efd21dc8c57f777d9e69b001" style="width: 100.0%; height: 100.0%;"><b>Chile</b><br>Publications: 4<br>Year: 2022</div>`)[0];
+                popup_85003ceab18a6e1538317a746ec04d20.setContent(html_090c3603efd21dc8c57f777d9e69b001);
+            
+        
+
+        marker_df72ccea7b3efbd1009dc49afdf4ffac.bindPopup(popup_85003ceab18a6e1538317a746ec04d20)
+        ;
+
+        
+    
+    
+                marker_df72ccea7b3efbd1009dc49afdf4ffac.setIcon(icon_b09f8eabfab643f94ea0ec547caeecdd);
+            
+    
+            var marker_0be1646d291a4ea1ebde501205c70725 = L.marker(
+                [-38.4, -63.6],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_e07c7041cc5ab774e548eb5a8360393e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87f8521ebb624128e7e6a81040e9580a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_67f4ccc71b2cfb54145e02fbc003be7c = $(`<div id="html_67f4ccc71b2cfb54145e02fbc003be7c" style="width: 100.0%; height: 100.0%;"><b>Argentina</b><br>Publications: 3<br>Year: 2022</div>`)[0];
+                popup_87f8521ebb624128e7e6a81040e9580a.setContent(html_67f4ccc71b2cfb54145e02fbc003be7c);
+            
+        
+
+        marker_0be1646d291a4ea1ebde501205c70725.bindPopup(popup_87f8521ebb624128e7e6a81040e9580a)
+        ;
+
+        
+    
+    
+                marker_0be1646d291a4ea1ebde501205c70725.setIcon(icon_e07c7041cc5ab774e548eb5a8360393e);
+            
+    
+            var marker_0dc40152b15fed22fe55030920f3bf70 = L.marker(
+                [50.5, 4.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_d4d7bf612655a83597bc4f6c9c314e3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_301ae1084fc871edf6e9c57b25f1c5a2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_246ff0dd5719654f86ada9fe2aa2b40f = $(`<div id="html_246ff0dd5719654f86ada9fe2aa2b40f" style="width: 100.0%; height: 100.0%;"><b>Belgium</b><br>Publications: 3<br>Year: 2017</div>`)[0];
+                popup_301ae1084fc871edf6e9c57b25f1c5a2.setContent(html_246ff0dd5719654f86ada9fe2aa2b40f);
+            
+        
+
+        marker_0dc40152b15fed22fe55030920f3bf70.bindPopup(popup_301ae1084fc871edf6e9c57b25f1c5a2)
+        ;
+
+        
+    
+    
+                marker_0dc40152b15fed22fe55030920f3bf70.setIcon(icon_d4d7bf612655a83597bc4f6c9c314e3a);
+            
+    
+            var marker_40a3dc2e31d1066a9ab839af3a23bbd5 = L.marker(
+                [4.2, 101.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_b636fc7efcedcc0f94f905e11faaa3a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e424c24f96dc124a59745e24a5743917 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eb44aecf2dd94af3193f064fb35d02ba = $(`<div id="html_eb44aecf2dd94af3193f064fb35d02ba" style="width: 100.0%; height: 100.0%;"><b>Malaysia</b><br>Publications: 3<br>Year: 2024</div>`)[0];
+                popup_e424c24f96dc124a59745e24a5743917.setContent(html_eb44aecf2dd94af3193f064fb35d02ba);
+            
+        
+
+        marker_40a3dc2e31d1066a9ab839af3a23bbd5.bindPopup(popup_e424c24f96dc124a59745e24a5743917)
+        ;
+
+        
+    
+    
+                marker_40a3dc2e31d1066a9ab839af3a23bbd5.setIcon(icon_b636fc7efcedcc0f94f905e11faaa3a3);
+            
+    
+            var marker_6dff569d79051db26b796d8df68e9c72 = L.marker(
+                [39.4, -8.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_15e9c93f94f0d2b818551c7aec422007 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5310a728283eee131b773a9eca8b2f6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_700ac844b1c6e58176409a61d873ab89 = $(`<div id="html_700ac844b1c6e58176409a61d873ab89" style="width: 100.0%; height: 100.0%;"><b>Portugal</b><br>Publications: 3<br>Year: 2022</div>`)[0];
+                popup_b5310a728283eee131b773a9eca8b2f6.setContent(html_700ac844b1c6e58176409a61d873ab89);
+            
+        
+
+        marker_6dff569d79051db26b796d8df68e9c72.bindPopup(popup_b5310a728283eee131b773a9eca8b2f6)
+        ;
+
+        
+    
+    
+                marker_6dff569d79051db26b796d8df68e9c72.setIcon(icon_15e9c93f94f0d2b818551c7aec422007);
+            
+    
+            var marker_21a16fd65a555decb969f525a6189501 = L.marker(
+                [30.4, 69.3],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_f7bee65b3f2223e00c1ed9112691e849 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c8b9e520d59beec07bb1721ef342743 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a84b8a357a427f486e8857bdcd0e8c9c = $(`<div id="html_a84b8a357a427f486e8857bdcd0e8c9c" style="width: 100.0%; height: 100.0%;"><b>Pakistan</b><br>Publications: 3<br>Year: 2024</div>`)[0];
+                popup_7c8b9e520d59beec07bb1721ef342743.setContent(html_a84b8a357a427f486e8857bdcd0e8c9c);
+            
+        
+
+        marker_21a16fd65a555decb969f525a6189501.bindPopup(popup_7c8b9e520d59beec07bb1721ef342743)
+        ;
+
+        
+    
+    
+                marker_21a16fd65a555decb969f525a6189501.setIcon(icon_f7bee65b3f2223e00c1ed9112691e849);
+            
+    
+            var marker_b05da9a5b96a75d7d9ccb7a84db5e97c = L.marker(
+                [23.4, 53.8],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_32ed9adce0d898acabc606a1d851a5ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f05c138885f49b2653571b1d57c49d9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eb9250f4d9136060b00ea2aa069e16df = $(`<div id="html_eb9250f4d9136060b00ea2aa069e16df" style="width: 100.0%; height: 100.0%;"><b>UAE</b><br>Publications: 3<br>Year: 2024</div>`)[0];
+                popup_8f05c138885f49b2653571b1d57c49d9.setContent(html_eb9250f4d9136060b00ea2aa069e16df);
+            
+        
+
+        marker_b05da9a5b96a75d7d9ccb7a84db5e97c.bindPopup(popup_8f05c138885f49b2653571b1d57c49d9)
+        ;
+
+        
+    
+    
+                marker_b05da9a5b96a75d7d9ccb7a84db5e97c.setIcon(icon_32ed9adce0d898acabc606a1d851a5ad);
+            
+    
+            var marker_a2957764811ade16c35ab0e70ec18fdd = L.marker(
+                [23.9, 45.1],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_63f83aee05aacf81b6cafa98982c5f40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6fd8bb8854f1cd24a0de9da397baa4a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a9c80b62479665811257ad1c01591d47 = $(`<div id="html_a9c80b62479665811257ad1c01591d47" style="width: 100.0%; height: 100.0%;"><b>Saudi Arabia</b><br>Publications: 5<br>Year: 2024</div>`)[0];
+                popup_f6fd8bb8854f1cd24a0de9da397baa4a.setContent(html_a9c80b62479665811257ad1c01591d47);
+            
+        
+
+        marker_a2957764811ade16c35ab0e70ec18fdd.bindPopup(popup_f6fd8bb8854f1cd24a0de9da397baa4a)
+        ;
+
+        
+    
+    
+                marker_a2957764811ade16c35ab0e70ec18fdd.setIcon(icon_63f83aee05aacf81b6cafa98982c5f40);
+            
+    
+            var marker_ed93993e7ae391d9b042ac5a49d6a16c = L.marker(
+                [-14.2, -51.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_80859b4613efebaff5269ea1588be4da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86c82d233796a51c9d4edcfeed4801c2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_305f3324a88e21498662b39493810872 = $(`<div id="html_305f3324a88e21498662b39493810872" style="width: 100.0%; height: 100.0%;"><b>Brazil</b><br>Publications: 2<br>Year: 2023</div>`)[0];
+                popup_86c82d233796a51c9d4edcfeed4801c2.setContent(html_305f3324a88e21498662b39493810872);
+            
+        
+
+        marker_ed93993e7ae391d9b042ac5a49d6a16c.bindPopup(popup_86c82d233796a51c9d4edcfeed4801c2)
+        ;
+
+        
+    
+    
+                marker_ed93993e7ae391d9b042ac5a49d6a16c.setIcon(icon_80859b4613efebaff5269ea1588be4da);
+            
+    
+            var marker_a8c3d8d9c3c8895f9d9d024d8bb468a7 = L.marker(
+                [42.7, 25.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_c7c4b3ddddc1478fa807b39d5415218f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3877837700d5dfa37dbc21f8e47a1dec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e3daae82fa1d3a7199eb51a41c2b7726 = $(`<div id="html_e3daae82fa1d3a7199eb51a41c2b7726" style="width: 100.0%; height: 100.0%;"><b>Bulgaria</b><br>Publications: 2<br>Year: 2023</div>`)[0];
+                popup_3877837700d5dfa37dbc21f8e47a1dec.setContent(html_e3daae82fa1d3a7199eb51a41c2b7726);
+            
+        
+
+        marker_a8c3d8d9c3c8895f9d9d024d8bb468a7.bindPopup(popup_3877837700d5dfa37dbc21f8e47a1dec)
+        ;
+
+        
+    
+    
+                marker_a8c3d8d9c3c8895f9d9d024d8bb468a7.setIcon(icon_c7c4b3ddddc1478fa807b39d5415218f);
+            
+    
+            var marker_80d5d07eb2dad82c86c7922c864640cf = L.marker(
+                [49.8, 15.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_a41f2038b641e972862caf2c02f8a594 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbf628caccf8c7a531b5269e02114f14 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e6612e02ee1a075609dfec5160c9c84e = $(`<div id="html_e6612e02ee1a075609dfec5160c9c84e" style="width: 100.0%; height: 100.0%;"><b>Czechia</b><br>Publications: 2<br>Year: 2024</div>`)[0];
+                popup_cbf628caccf8c7a531b5269e02114f14.setContent(html_e6612e02ee1a075609dfec5160c9c84e);
+            
+        
+
+        marker_80d5d07eb2dad82c86c7922c864640cf.bindPopup(popup_cbf628caccf8c7a531b5269e02114f14)
+        ;
+
+        
+    
+    
+                marker_80d5d07eb2dad82c86c7922c864640cf.setIcon(icon_a41f2038b641e972862caf2c02f8a594);
+            
+    
+            var marker_8bc311cefadd1859e93a677e28084dec = L.marker(
+                [26.8, 30.8],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_d41b3690335f1abdb23fbcbfc1601969 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6ebb8907aebc7eb756b824d234e98a9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b488a21dbb2e3a065ce6b6acaf34c7a2 = $(`<div id="html_b488a21dbb2e3a065ce6b6acaf34c7a2" style="width: 100.0%; height: 100.0%;"><b>Egypt</b><br>Publications: 3<br>Year: 2023</div>`)[0];
+                popup_a6ebb8907aebc7eb756b824d234e98a9.setContent(html_b488a21dbb2e3a065ce6b6acaf34c7a2);
+            
+        
+
+        marker_8bc311cefadd1859e93a677e28084dec.bindPopup(popup_a6ebb8907aebc7eb756b824d234e98a9)
+        ;
+
+        
+    
+    
+                marker_8bc311cefadd1859e93a677e28084dec.setIcon(icon_d41b3690335f1abdb23fbcbfc1601969);
+            
+    
+            var marker_55d1ec8cadd97b358cfe0a6b08771ff3 = L.marker(
+                [22.3, 114.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_82e66370e4eabdc5d24f9e9cc0b833f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_def4699267047cfa61e4f965bd812758 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_23ccf6e2548cbae8ee4029f7b0c75f3a = $(`<div id="html_23ccf6e2548cbae8ee4029f7b0c75f3a" style="width: 100.0%; height: 100.0%;"><b>Hong Kong</b><br>Publications: 2<br>Year: 2024</div>`)[0];
+                popup_def4699267047cfa61e4f965bd812758.setContent(html_23ccf6e2548cbae8ee4029f7b0c75f3a);
+            
+        
+
+        marker_55d1ec8cadd97b358cfe0a6b08771ff3.bindPopup(popup_def4699267047cfa61e4f965bd812758)
+        ;
+
+        
+    
+    
+                marker_55d1ec8cadd97b358cfe0a6b08771ff3.setIcon(icon_82e66370e4eabdc5d24f9e9cc0b833f0);
+            
+    
+            var marker_c678c258062cfc89a56fc2f4db8c0e94 = L.marker(
+                [-0.8, 113.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_d3db27c5788287d889f65e1007dbe308 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7aa4c3ba356bc69231dd84240f1f4f8b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7a7c03ff7aa0ff35e1563412234858e1 = $(`<div id="html_7a7c03ff7aa0ff35e1563412234858e1" style="width: 100.0%; height: 100.0%;"><b>Indonesia</b><br>Publications: 2<br>Year: 2024</div>`)[0];
+                popup_7aa4c3ba356bc69231dd84240f1f4f8b.setContent(html_7a7c03ff7aa0ff35e1563412234858e1);
+            
+        
+
+        marker_c678c258062cfc89a56fc2f4db8c0e94.bindPopup(popup_7aa4c3ba356bc69231dd84240f1f4f8b)
+        ;
+
+        
+    
+    
+                marker_c678c258062cfc89a56fc2f4db8c0e94.setIcon(icon_d3db27c5788287d889f65e1007dbe308);
+            
+    
+            var marker_d75b3d51afa37945e7dc1802049da952 = L.marker(
+                [56.9, 24.6],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_fcec5452e1c362a98548805f6c9a34c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a646e785fff46fe8cd451f9d95fab12c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6f50b762a37cbcadbf0a68307ed73a81 = $(`<div id="html_6f50b762a37cbcadbf0a68307ed73a81" style="width: 100.0%; height: 100.0%;"><b>Latvia</b><br>Publications: 2<br>Year: 2023</div>`)[0];
+                popup_a646e785fff46fe8cd451f9d95fab12c.setContent(html_6f50b762a37cbcadbf0a68307ed73a81);
+            
+        
+
+        marker_d75b3d51afa37945e7dc1802049da952.bindPopup(popup_a646e785fff46fe8cd451f9d95fab12c)
+        ;
+
+        
+    
+    
+                marker_d75b3d51afa37945e7dc1802049da952.setIcon(icon_fcec5452e1c362a98548805f6c9a34c1);
+            
+    
+            var marker_d39100ada8ba7534648d72d8da5a0c88 = L.marker(
+                [44.0, 21.0],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_2646ea5bd809067dbb1c1076ff893f18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8444dbc5c506d2a7d88632f3553bbc31 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c6762f15e4b170893be49339c6d17cd6 = $(`<div id="html_c6762f15e4b170893be49339c6d17cd6" style="width: 100.0%; height: 100.0%;"><b>Serbia</b><br>Publications: 2<br>Year: 2024</div>`)[0];
+                popup_8444dbc5c506d2a7d88632f3553bbc31.setContent(html_c6762f15e4b170893be49339c6d17cd6);
+            
+        
+
+        marker_d39100ada8ba7534648d72d8da5a0c88.bindPopup(popup_8444dbc5c506d2a7d88632f3553bbc31)
+        ;
+
+        
+    
+    
+                marker_d39100ada8ba7534648d72d8da5a0c88.setIcon(icon_2646ea5bd809067dbb1c1076ff893f18);
+            
+    
+            var marker_73b504299b9a6f21d6145d3b84361278 = L.marker(
+                [31.8, -7.1],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_e1ee41f74f94e7dedaa55b8f0647bf29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c87888ea7fe2665c7c8c60fd9d0f3188 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2690a461fc6ed97adc5fcc69f59ca1b7 = $(`<div id="html_2690a461fc6ed97adc5fcc69f59ca1b7" style="width: 100.0%; height: 100.0%;"><b>Morocco</b><br>Publications: 1<br>Year: 2021</div>`)[0];
+                popup_c87888ea7fe2665c7c8c60fd9d0f3188.setContent(html_2690a461fc6ed97adc5fcc69f59ca1b7);
+            
+        
+
+        marker_73b504299b9a6f21d6145d3b84361278.bindPopup(popup_c87888ea7fe2665c7c8c60fd9d0f3188)
+        ;
+
+        
+    
+    
+                marker_73b504299b9a6f21d6145d3b84361278.setIcon(icon_e1ee41f74f94e7dedaa55b8f0647bf29);
+            
+    
+            var marker_41bfcc1e112bf344a11ad771a5ed61d0 = L.marker(
+                [51.9, 19.1],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_583fc1eb826e5374100e96dfa7807cff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb3c3048f602afa88e0c6cd28db94d11 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4e88b5bcb58c39486044d08d03add612 = $(`<div id="html_4e88b5bcb58c39486044d08d03add612" style="width: 100.0%; height: 100.0%;"><b>Poland</b><br>Publications: 2<br>Year: 2021</div>`)[0];
+                popup_bb3c3048f602afa88e0c6cd28db94d11.setContent(html_4e88b5bcb58c39486044d08d03add612);
+            
+        
+
+        marker_41bfcc1e112bf344a11ad771a5ed61d0.bindPopup(popup_bb3c3048f602afa88e0c6cd28db94d11)
+        ;
+
+        
+    
+    
+                marker_41bfcc1e112bf344a11ad771a5ed61d0.setIcon(icon_583fc1eb826e5374100e96dfa7807cff);
+            
+    
+            var marker_f453f093a80080b86a48728e6f071170 = L.marker(
+                [-40.9, 174.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_861aab3e87747d6e8d4d487c9c851728 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eccc52efc0bf54535f3b34b28a93ba4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_86f321d2f629f68149e1ae9d6e529937 = $(`<div id="html_86f321d2f629f68149e1ae9d6e529937" style="width: 100.0%; height: 100.0%;"><b>New Zealand</b><br>Publications: 1<br>Year: 2021</div>`)[0];
+                popup_8eccc52efc0bf54535f3b34b28a93ba4.setContent(html_86f321d2f629f68149e1ae9d6e529937);
+            
+        
+
+        marker_f453f093a80080b86a48728e6f071170.bindPopup(popup_8eccc52efc0bf54535f3b34b28a93ba4)
+        ;
+
+        
+    
+    
+                marker_f453f093a80080b86a48728e6f071170.setIcon(icon_861aab3e87747d6e8d4d487c9c851728);
+            
+    
+            var marker_5850bc9e7d0caa7b112cc4d7c4608f72 = L.marker(
+                [-9.2, -75.0],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_ec4bffc568b75f6622b45460bc206ed5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0f98d8e62cb387dcd9b68bae428a6d9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5a360d3fbb555bcd33eac30824358643 = $(`<div id="html_5a360d3fbb555bcd33eac30824358643" style="width: 100.0%; height: 100.0%;"><b>Peru</b><br>Publications: 1<br>Year: 2019</div>`)[0];
+                popup_d0f98d8e62cb387dcd9b68bae428a6d9.setContent(html_5a360d3fbb555bcd33eac30824358643);
+            
+        
+
+        marker_5850bc9e7d0caa7b112cc4d7c4608f72.bindPopup(popup_d0f98d8e62cb387dcd9b68bae428a6d9)
+        ;
+
+        
+    
+    
+                marker_5850bc9e7d0caa7b112cc4d7c4608f72.setIcon(icon_ec4bffc568b75f6622b45460bc206ed5);
+            
+    
+            var marker_5dd9934fa04a15e8fbac7747108bf45c = L.marker(
+                [45.9, 24.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_406643d6633d9eab83d3a431d2ec0128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_964647dd201f03e4307da270ee9dcc00 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_33b53ad6dd77ef52a11f479754ac8d57 = $(`<div id="html_33b53ad6dd77ef52a11f479754ac8d57" style="width: 100.0%; height: 100.0%;"><b>Romania</b><br>Publications: 1<br>Year: 2024</div>`)[0];
+                popup_964647dd201f03e4307da270ee9dcc00.setContent(html_33b53ad6dd77ef52a11f479754ac8d57);
+            
+        
+
+        marker_5dd9934fa04a15e8fbac7747108bf45c.bindPopup(popup_964647dd201f03e4307da270ee9dcc00)
+        ;
+
+        
+    
+    
+                marker_5dd9934fa04a15e8fbac7747108bf45c.setIcon(icon_406643d6633d9eab83d3a431d2ec0128);
+            
+    
+            var marker_4c3fdca8f213eda1ade8465db90e4d52 = L.marker(
+                [-30.6, 22.9],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_0be369e5735508fbd385348caeb0549e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5385f24b2da32a7c2dcade98bd80da7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bde080c58b6741be417e43b8825f090a = $(`<div id="html_bde080c58b6741be417e43b8825f090a" style="width: 100.0%; height: 100.0%;"><b>South Africa</b><br>Publications: 1<br>Year: 2024</div>`)[0];
+                popup_c5385f24b2da32a7c2dcade98bd80da7.setContent(html_bde080c58b6741be417e43b8825f090a);
+            
+        
+
+        marker_4c3fdca8f213eda1ade8465db90e4d52.bindPopup(popup_c5385f24b2da32a7c2dcade98bd80da7)
+        ;
+
+        
+    
+    
+                marker_4c3fdca8f213eda1ade8465db90e4d52.setIcon(icon_0be369e5735508fbd385348caeb0549e);
+            
+    
+            var marker_82f83766fefc7bc0231d995bf39557d4 = L.marker(
+                [46.8, 8.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_680b0fd2832a6141fea5c835c4cdd7b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38e54d42ad2c2c4f455622d21aae8999 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6351817512ec31805d152a3871ea1299 = $(`<div id="html_6351817512ec31805d152a3871ea1299" style="width: 100.0%; height: 100.0%;"><b>Switzerland</b><br>Publications: 1<br>Year: 2016</div>`)[0];
+                popup_38e54d42ad2c2c4f455622d21aae8999.setContent(html_6351817512ec31805d152a3871ea1299);
+            
+        
+
+        marker_82f83766fefc7bc0231d995bf39557d4.bindPopup(popup_38e54d42ad2c2c4f455622d21aae8999)
+        ;
+
+        
+    
+    
+                marker_82f83766fefc7bc0231d995bf39557d4.setIcon(icon_680b0fd2832a6141fea5c835c4cdd7b9);
+            
+    
+            var marker_033000b51a7253c1c6920a7e954ac194 = L.marker(
+                [52.1, 5.3],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_a2abc5a528b825924def91a562e0e073 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d2f4856ab90ea54f75d0be6c9badc9e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ebb543077456389c946223dc54b00aa9 = $(`<div id="html_ebb543077456389c946223dc54b00aa9" style="width: 100.0%; height: 100.0%;"><b>Netherlands</b><br>Publications: 2<br>Year: 2021</div>`)[0];
+                popup_6d2f4856ab90ea54f75d0be6c9badc9e.setContent(html_ebb543077456389c946223dc54b00aa9);
+            
+        
+
+        marker_033000b51a7253c1c6920a7e954ac194.bindPopup(popup_6d2f4856ab90ea54f75d0be6c9badc9e)
+        ;
+
+        
+    
+    
+                marker_033000b51a7253c1c6920a7e954ac194.setIcon(icon_a2abc5a528b825924def91a562e0e073);
+            
+    
+            var marker_c38bfcb9cd0316b11486d93d251b4c1e = L.marker(
+                [46.2, 14.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_275cded477324ea764ea85abfd448e29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3516c70136f82bec83ebacdb5cf835b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_34bc4903a37ddf212ccd6fb5fa44b36c = $(`<div id="html_34bc4903a37ddf212ccd6fb5fa44b36c" style="width: 100.0%; height: 100.0%;"><b>Slovenia</b><br>Publications: 1<br>Year: 2016</div>`)[0];
+                popup_f3516c70136f82bec83ebacdb5cf835b.setContent(html_34bc4903a37ddf212ccd6fb5fa44b36c);
+            
+        
+
+        marker_c38bfcb9cd0316b11486d93d251b4c1e.bindPopup(popup_f3516c70136f82bec83ebacdb5cf835b)
+        ;
+
+        
+    
+    
+                marker_c38bfcb9cd0316b11486d93d251b4c1e.setIcon(icon_275cded477324ea764ea85abfd448e29);
+            
+    
+            var marker_c4f2f1107083137c5519e0085c32ef71 = L.marker(
+                [39.1, 35.2],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_025c307da94d7a0e774c287614e9ea86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fc5b37cac58ded7ee456b77e9266679 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7c838f08335eaddee451d09bff08c926 = $(`<div id="html_7c838f08335eaddee451d09bff08c926" style="width: 100.0%; height: 100.0%;"><b>Türkiye</b><br>Publications: 1<br>Year: 2024</div>`)[0];
+                popup_6fc5b37cac58ded7ee456b77e9266679.setContent(html_7c838f08335eaddee451d09bff08c926);
+            
+        
+
+        marker_c4f2f1107083137c5519e0085c32ef71.bindPopup(popup_6fc5b37cac58ded7ee456b77e9266679)
+        ;
+
+        
+    
+    
+                marker_c4f2f1107083137c5519e0085c32ef71.setIcon(icon_025c307da94d7a0e774c287614e9ea86);
+            
+    
+            var marker_d77940ecb30f753ddb0dc4e99970dfc0 = L.marker(
+                [28.0, 1.6],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_304c9c8bafd1b176c517d7c54aa841a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b4d1f15969d7d01f3704b38137eefc0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e498c5519818db614287320b7b014a3b = $(`<div id="html_e498c5519818db614287320b7b014a3b" style="width: 100.0%; height: 100.0%;"><b>Algeria</b><br>Publications: 1<br>Year: 2017</div>`)[0];
+                popup_7b4d1f15969d7d01f3704b38137eefc0.setContent(html_e498c5519818db614287320b7b014a3b);
+            
+        
+
+        marker_d77940ecb30f753ddb0dc4e99970dfc0.bindPopup(popup_7b4d1f15969d7d01f3704b38137eefc0)
+        ;
+
+        
+    
+    
+                marker_d77940ecb30f753ddb0dc4e99970dfc0.setIcon(icon_304c9c8bafd1b176c517d7c54aa841a3);
+            
+    
+            var marker_4ad398d729ec44733968500c8eeca49d = L.marker(
+                [23.6, -102.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_c5e81f428054709ee0aa477a5ea2e3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_658074c9b78a256305718213b4c58c35 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4481e52298ea5f3ad10313aa05142bb5 = $(`<div id="html_4481e52298ea5f3ad10313aa05142bb5" style="width: 100.0%; height: 100.0%;"><b>Mexico</b><br>Publications: 1<br>Year: 2021</div>`)[0];
+                popup_658074c9b78a256305718213b4c58c35.setContent(html_4481e52298ea5f3ad10313aa05142bb5);
+            
+        
+
+        marker_4ad398d729ec44733968500c8eeca49d.bindPopup(popup_658074c9b78a256305718213b4c58c35)
+        ;
+
+        
+    
+    
+                marker_4ad398d729ec44733968500c8eeca49d.setIcon(icon_c5e81f428054709ee0aa477a5ea2e3dc);
+            
+    
+            var marker_899b76c68ba4841b3e00c690d4a93186 = L.marker(
+                [22.2, 113.5],
+                {
+}
+            ).addTo(map_9a84ac356ffb9284966ad38b711461e6);
+        
+    
+            var icon_b3d292fb5e1fed06db32e29925473f44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23791cea3f96c787083d10e9a8790956 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_71551b2c9f6dbd314c34d8f51c036295 = $(`<div id="html_71551b2c9f6dbd314c34d8f51c036295" style="width: 100.0%; height: 100.0%;"><b>Macau</b><br>Publications: 1<br>Year: 2025</div>`)[0];
+                popup_23791cea3f96c787083d10e9a8790956.setContent(html_71551b2c9f6dbd314c34d8f51c036295);
+            
+        
+
+        marker_899b76c68ba4841b3e00c690d4a93186.bindPopup(popup_23791cea3f96c787083d10e9a8790956)
+        ;
+
+        
+    
+    
+                marker_899b76c68ba4841b3e00c690d4a93186.setIcon(icon_b3d292fb5e1fed06db32e29925473f44);
+            
+</script>
+</html>
